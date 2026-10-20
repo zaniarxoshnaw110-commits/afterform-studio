@@ -34,3 +34,13 @@ Portfolio pieces are fictional concept studies, not commissioned client work. Re
 
 ## Verification
 Test desktop/mobile, filters, navigation, keyboard-only navigation, and reduced-motion settings. No formal accessibility audit or device performance measurements are claimed.
+
+## Visual design system
+
+`design-system.css` defines Afterform’s semantic color palette, typography, floating navigation, responsive spacing, project surfaces, and restrained motion. The reusable `apple-inspired-web-design` skill lives in `.agents/skills/` with a Claude Code pointer in `.claude/skills/`. It adapts public Apple Human Interface Guidelines principles to Afterform’s own identity rather than copying Apple UI or assets.
+
+Design references reviewed:
+- Apple Human Interface Guidelines: https://developer.apple.com/design/human-interface-guidelines/
+- https://github.com/SudewaJay/apple-design-skill
+- https://github.com/sankalpaacharya/apple-human-interface-skills
+- https://github.com/ihlamury/design-skills/blob/main/skills/apple/SKILL.md

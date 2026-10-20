@@ -11,3 +11,7 @@ Read the relevant local skills before changing UI. Workflow:
 8. .agents/skills/web-interface-guidelines/SKILL.md — interaction and responsive patterns.
 
 Plan art direction and motion before coding. Avoid generic templates and decoration that competes with content. Every control must work. Respect reduced motion and provide static fallbacks. Test desktop/mobile, keyboard, touch, and reduced motion when tools are available. Never claim visual/browser/performance tests ran unless they did. Do not invent clients, testimonials, metrics, or contact details. Claude Code entry points live in .claude/skills/ and should stay aligned.
+
+## Premium visual design
+
+Before redesigning colors, layout, typography, motion, or interactions, read `.agents/skills/apple-inspired-web-design/SKILL.md` and the relevant motion/accessibility skills. Preserve Afterform’s editorial identity; use the shared tokens in `design-system.css`; verify mobile layout, keyboard focus, contrast, and reduced motion.
