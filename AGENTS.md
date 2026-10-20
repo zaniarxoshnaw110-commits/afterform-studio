@@ -1,22 +1,13 @@
 # Project agent instructions
 
-Before creating or significantly changing UI, read the relevant project skills below. Do not jump straight to JSX/CSS. For a full pass, use this order:
+Read the relevant local skills before changing UI. Workflow:
+1. .agents/skills/frontend-design/SKILL.md — art direction before code.
+2. .agents/skills/ui-ux-pro-max/SKILL.md — cohesive design system.
+3. .agents/skills/threejs-web-experience/SKILL.md — choose CSS 3D vs Three.js deliberately.
+4. .agents/skills/animation-motion-design/SKILL.md — define what motion communicates.
+5. .agents/skills/gsap-scrolltrigger/SKILL.md — use for complex timelines only.
+6. .agents/skills/animation-performance/SKILL.md — mobile/GPU performance.
+7. .agents/skills/motion-accessibility/SKILL.md and .agents/skills/accessibility-review/SKILL.md — accessibility review.
+8. .agents/skills/web-interface-guidelines/SKILL.md — interaction and responsive patterns.
 
-1. .agents/skills/frontend-design/SKILL.md — understand the brief, choose a distinctive visual direction, plan before coding.
-2. .agents/skills/ui-ux-pro-max/SKILL.md — create a small usable design system and choose patterns intentionally.
-3. .agents/skills/web-interface-guidelines/SKILL.md — interaction states, browser conventions, responsive behavior.
-4. .agents/skills/ui-design-principles/SKILL.md — spacing rhythm, progressive disclosure, feedback.
-5. .agents/skills/accessibility-review/SKILL.md — keyboard, contrast, semantics, motion, and form review.
-
-## Required workflow
-
-- Plan first: write a short art direction, token set, layout concept, and one memorable visual idea before implementation.
-- Avoid defaults: don't automatically reach for a centered hero, gradient glow, identical rounded cards, labels above every heading, or motion on every element. Use patterns only when the brief justifies them.
-- Build real detail: use intentional typography, content-specific art, consistent spacing, responsive behavior, and meaningful interface copy.
-- Prove the UI: open the site in a browser when available; inspect desktop and narrow-mobile screenshots; test links, buttons, keyboard navigation, filtering, and reduced motion.
-- Self-critique: identify the three weakest visual or UX decisions after seeing the result, fix them, and re-check.
-- Accessibility is part of quality: semantic landmarks, visible focus, sufficient contrast, keyboard access, motion preference, and useful names for controls.
-- Do not claim tests ran unless they did. Record what was actually tested and what remains unverified.
-- Do not invent portfolio clients, testimonials, performance data, or contact details. Mark concept work as concept work.
-
-Claude Code entry points are mirrored in .claude/skills/. Keep both skill trees aligned when you edit instructions.
+Plan art direction and motion before coding. Avoid generic templates and decoration that competes with content. Every control must work. Respect reduced motion and provide static fallbacks. Test desktop/mobile, keyboard, touch, and reduced motion when tools are available. Never claim visual/browser/performance tests ran unless they did. Do not invent clients, testimonials, metrics, or contact details. Claude Code entry points live in .claude/skills/ and should stay aligned.
